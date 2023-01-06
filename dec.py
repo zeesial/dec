@@ -12,18 +12,4 @@ print(t)
 print("\nDecompressed String")
 print(base64.b64decode(t))
 
-# using zlib.compress(s) method
-t = (zlib.decompress(s))
-print("Compressed String")
-print(t)
-  
-print("\nDecompressed String")
-print(zlib.decompress(t))
 
-# using zlib.compress(s) method
-t = (marshal.loads(s))
-print("Compressed String")
-print(t)
-  
-print("\nDecompressed String")
-print(marshal.loads(t))
